@@ -1,0 +1,6 @@
+C:\Users\user\source\repos\CodeChallenge01\CC01Test\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\Users\user\source\repos\CodeChallenge01\CC01Test\obj\Debug\net7.0\CC01Test.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\CodeChallenge01\CC01Test\obj\Debug\net7.0\CC01Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\CodeChallenge01\CC01Test\obj\Debug\net7.0\CC01Test.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\CodeChallenge01\CC01Test\obj\Debug\net7.0\CC01Test.AssemblyInfo.cs
+C:\Users\user\source\repos\CodeChallenge01\CC01Test\obj\Debug\net7.0\CC01Test.csproj.CoreCompileInputs.cache

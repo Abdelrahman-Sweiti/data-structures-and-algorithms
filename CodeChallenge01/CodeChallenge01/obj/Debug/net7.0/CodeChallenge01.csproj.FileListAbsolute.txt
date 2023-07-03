@@ -1,0 +1,5 @@
+C:\Users\user\source\repos\CodeChallenge01\CodeChallenge01\obj\Debug\net7.0\CodeChallenge01.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\CodeChallenge01\CodeChallenge01\obj\Debug\net7.0\CodeChallenge01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\CodeChallenge01\CodeChallenge01\obj\Debug\net7.0\CodeChallenge01.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\CodeChallenge01\CodeChallenge01\obj\Debug\net7.0\CodeChallenge01.AssemblyInfo.cs
+C:\Users\user\source\repos\CodeChallenge01\CodeChallenge01\obj\Debug\net7.0\CodeChallenge01.csproj.CoreCompileInputs.cache
