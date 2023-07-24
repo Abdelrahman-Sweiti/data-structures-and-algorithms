@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace CodeChallenge12
 {
-    internal class Animal
+    public  class Animal
     {
+
+        public Animal(string species, string name)
+        {
+            Species = species;
+             Name = name;
+        }
 
         public string Name { get; set; }
         public string Species { get; set; }
