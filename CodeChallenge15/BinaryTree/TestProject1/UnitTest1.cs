@@ -1,7 +1,6 @@
 using System.Linq;
 using Xunit;
 using BinaryTree;
-using BinaryTree;
 
 namespace TestProject1
 {
@@ -10,15 +9,15 @@ namespace TestProject1
         [Fact]
         public void CanInstantiateEmptyTree()
         {
-            BinaryTree<int> tree = new BinaryTree<int>();
+            BinarySearchTree tree = new BinarySearchTree();
             Assert.Null(tree.Root);
         }
 
         [Fact]
         public void CanInstantiateTreeWithSingleRootNode()
         {
-            BinaryTree<int> tree = new BinaryTree<int>();
-            tree.Root = new Node<int>(10);
+            BinarySearchTree tree = new BinarySearchTree();
+            tree.Root = new Node(10);
             Assert.Equal(10, tree.Root.Value);
             Assert.Null(tree.Root.Left);
             Assert.Null(tree.Root.Right);
@@ -27,7 +26,7 @@ namespace TestProject1
         [Fact]
         public void CanAddLeftAndRightChildToBinarySearchTree()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree bst = new BinarySearchTree();
             bst.Add(10);
             bst.Add(5);
             bst.Add(15);
@@ -40,7 +39,7 @@ namespace TestProject1
         [Fact]
         public void CanPerformInOrderTraversal()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree bst = new BinarySearchTree();
             bst.Add(10);
             bst.Add(5);
             bst.Add(15);
@@ -54,7 +53,7 @@ namespace TestProject1
         [Fact]
         public void CanPerformPostOrderTraversal()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree bst = new BinarySearchTree();
             bst.Add(10);
             bst.Add(5);
             bst.Add(15);
@@ -68,7 +67,7 @@ namespace TestProject1
         [Fact]
         public void ContainsMethodReturnsTrueForExistingNodeValue()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree bst = new BinarySearchTree();
             bst.Add(10);
             bst.Add(5);
             bst.Add(15);
@@ -81,7 +80,7 @@ namespace TestProject1
         [Fact]
         public void ContainsMethodReturnsFalseForNonExistingNodeValue()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree bst = new BinarySearchTree();
             bst.Add(10);
             bst.Add(5);
             bst.Add(15);

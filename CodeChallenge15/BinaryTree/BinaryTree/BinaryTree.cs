@@ -7,24 +7,24 @@ using System.Threading.Tasks;
 
 namespace BinaryTree
 {
-    public class BinaryTree<T>
+    public class BinaryTree
     {
-        public Node<T> Root;
+        public Node Root;
 
         public BinaryTree()
         {
             Root = null;
         }
 
-        public List<T> PreOrderTravarsel()
+        public List<int> PreOrderTravarsel()
         {
-            List<T> result = new List<T>();
+            List<int> result = new List<int>();
             PreOrderTravarsel(Root, result);
 
             return result;
         }
 
-        public void PreOrderTravarsel(Node<T> node, List<T> result)
+        public void PreOrderTravarsel(Node node, List<int> result)
         {
             if (node != null)
             {
@@ -38,14 +38,14 @@ namespace BinaryTree
         }
 
         // In-order Traversal
-        public List<T> InorderTraversal()
+        public List<int> InorderTraversal()
         {
-            List<T> result = new List<T>();
+            List<int> result = new List<int>();
             InorderTraversal(Root, result);
             return result;
         }
 
-        private void InorderTraversal(Node<T> node, List<T> result)
+        private void InorderTraversal(Node node, List<int> result)
         {
             if (node != null)
             {
@@ -56,14 +56,14 @@ namespace BinaryTree
         }
 
         // Post-order Traversal
-        public List<T> PostorderTraversal()
+        public List<int> PostorderTraversal()
         {
-            List<T> result = new List<T>();
+            List<int> result = new List<int>();
             PostorderTraversal(Root, result);
             return result;
         }
 
-        private void PostorderTraversal(Node<T> node, List<T> result)
+        private void PostorderTraversal(Node node, List<int> result)
         {
             if (node != null)
             {
@@ -72,6 +72,24 @@ namespace BinaryTree
                 result.Add(node.Value);
             }
         }
+
+        public int FindMax() {
+
+            var x = PostorderTraversal();
+            int temp = 0;
+
+            for (int i = 0; i < x.Count; i++)
+            {
+                if (temp <  x[i])
+                {
+                    temp = x[i];
+                }
+            }
+            return temp;
+
+        }
+
+
 
     }
 }
