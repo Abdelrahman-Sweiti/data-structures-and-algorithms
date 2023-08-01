@@ -7,17 +7,17 @@ using System.Threading.Tasks;
 
 namespace BinaryTree
 {
-    public class BinarySearchTree<T> : BinaryTree<T> where T : IComparable
+    public class BinarySearchTree : BinaryTree
     {
 
-        public void Add(T value)
+        public void Add(int value)
         {
             Root = AddNode(Root, value);
         }
-        private Node<T> AddNode(Node<T> node, T value)
+        private Node AddNode(Node node, int value)
         {
             if (node == null)
-                return new Node<T>(value);
+                return new Node(value);
 
 
             if (value.CompareTo(node.Value) < 0)
@@ -29,12 +29,12 @@ namespace BinaryTree
             return node;
         }
 
-        public bool Contains(T value)
+        public bool Contains(int value)
         {
             return ContainsNode(Root, value);
         }
 
-        private bool ContainsNode(Node<T> node, T value)
+        private bool ContainsNode(Node node, int value)
         {
             if (node == null)
                 return false;
