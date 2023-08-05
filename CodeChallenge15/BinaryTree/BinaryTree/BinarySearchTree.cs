@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BinaryTree
 {
-    public class BinarySearchTree : BinaryTree
+    public class BinarySearchTree : BinaryTree2
     {
 
         public void Add(int value)
