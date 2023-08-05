@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace BinaryTree
 {
-    public class BinaryTree
+    public class BinaryTree2
     {
         public Node Root;
 
-        public BinaryTree()
+        public BinaryTree2()
         {
             Root = null;
         }
@@ -45,7 +45,7 @@ namespace BinaryTree
             return result;
         }
 
-        private void InorderTraversal(Node node, List<int> result)
+        public void InorderTraversal(Node node, List<int> result)
         {
             if (node != null)
             {
@@ -75,17 +75,14 @@ namespace BinaryTree
 
         public int FindMax() {
 
-            var x = PostorderTraversal();
-            int temp = 0;
+            var x = InorderTraversal();
+            int[] y = x.ToArray();
 
-            for (int i = 0; i < x.Count; i++)
-            {
-                if (temp <  x[i])
-                {
-                    temp = x[i];
-                }
-            }
-            return temp;
+
+           
+               
+          
+            return y[y.Length-1];
 
         }
 
