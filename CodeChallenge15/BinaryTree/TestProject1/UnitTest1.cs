@@ -91,9 +91,29 @@ namespace TestProject1
         }
 
 
-       
-        
-            BreadthFirst MyBF = new BreadthFirst();
+        [Fact]
+        public void FindMax_Returns_MaximumValue()
+        {
+            // Arrange
+            BinaryTree2 binaryTree = new BinaryTree2();
+            binaryTree.Root = new Node(10);
+            binaryTree.Root.Left = new Node(5);
+            binaryTree.Root.Right = new Node(20);
+            binaryTree.Root.Left.Left = new Node(3);
+            binaryTree.Root.Left.Right = new Node(8);
+            binaryTree.Root.Right.Left = new Node(15);
+            binaryTree.Root.Right.Right = new Node(25);
+
+            // Act
+            int maxValue = binaryTree.FindMax();
+
+            // Assert
+            Assert.Equal(25, maxValue);
+        }
+
+
+
+        BreadthFirst MyBF = new BreadthFirst();
             //Test 1
             [Fact]
             public void Test1()
