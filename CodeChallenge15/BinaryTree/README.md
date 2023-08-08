@@ -5,3 +5,6 @@
 
 ## the following is CC16 white board
 https://i.imgur.com/WuXiqgN.png
+
+## CC18 White Board : 
+https://i.imgur.com/ABl6A0D.png
