@@ -16,6 +16,7 @@ Welcome to my repository for data structures and algorithms challenges!
 - [Challenge 12 : Animal Shelter.](../CodeChallenge12/README.md)
 - [Challenge 13 : Bracket Validate.](../CodeChallenge13/README.md)
 - [Challenge 14/15/16/17/18 : Trees](https://github.com/Abdelrahman-Sweiti/data-structures-and-algorithms/tree/master/CodeChallenge15/BinaryTree)
+- [Challenge 26 : Merge Sort.](../CodeChallenge26/README.md)
 
 
 
