@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\CodeChallenge06\\CodeChallenge06\\CodeChallenge06.csproj": {}
+    "C:\\Users\\user\\source\\repos\\data-structures-and-algorithms\\CodeChallenge06\\CodeChallenge06\\CodeChallenge06.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\CodeChallenge06\\CodeChallenge06\\CodeChallenge06.csproj": {
+    "C:\\Users\\user\\source\\repos\\data-structures-and-algorithms\\CodeChallenge06\\CodeChallenge06\\CodeChallenge06.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\CodeChallenge06\\CodeChallenge06\\CodeChallenge06.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\data-structures-and-algorithms\\CodeChallenge06\\CodeChallenge06\\CodeChallenge06.csproj",
         "projectName": "CodeChallenge06",
-        "projectPath": "C:\\Users\\user\\source\\repos\\CodeChallenge06\\CodeChallenge06\\CodeChallenge06.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\data-structures-and-algorithms\\CodeChallenge06\\CodeChallenge06\\CodeChallenge06.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\CodeChallenge06\\CodeChallenge06\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\data-structures-and-algorithms\\CodeChallenge06\\CodeChallenge06\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

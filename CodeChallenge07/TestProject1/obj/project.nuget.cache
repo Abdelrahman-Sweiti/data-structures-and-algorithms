@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a0IQI7yOWFnIuL3MKHYZL5AmjzDgqGYeCbCikzp6C+Vt0Uya+0xOKVrWzL14eWyP+/cWjdqJ9P5ZOpRi3ZVMRA==",
+  "dgSpecHash": "/KTyg5wrHevi9GVXF69KinwAdv78jk3VbKrt9bmVIndpGWiRTPz7s42AyuoYaVIyo/K7HO5DIMTpnSBxPUE1fA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\CodeChallenge07\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\data-structures-and-algorithms\\CodeChallenge07\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
